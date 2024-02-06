@@ -1,10 +1,12 @@
 from transformers import pipeline
 import gradio as gr
 
-model = pipeline("summarization")
+model = pipeline(
+    "summarization",
+)
 
 def predict(prompt):
-    summary = model(prompt)[0]['summary text']
+    summary = model(prompt)[0]["summary_text"]
     return summary
 
 with gr.Interface(predict, "textbox", "text") as interface:
