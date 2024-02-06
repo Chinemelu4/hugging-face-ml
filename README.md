@@ -1,4 +1,3 @@
-# hugging-face-ml
 ---
 title: Summarize App
 emoji: 📱
