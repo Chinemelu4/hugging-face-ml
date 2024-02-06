@@ -1,7 +1,7 @@
 # hugging-face-ml
 title: Summarize App
 emoji: 📱
-colorFrom: {{colorFrom}}
+colorFrom: blue
 colorTo: blue
 sdk: gradio
 sdk_version: 3.0.6
